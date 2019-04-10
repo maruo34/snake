@@ -5,6 +5,8 @@ struct Fruit
 {
 	COORD coords;
 
+	char texture = 'o';
+
 	Fruit(int, int);
 	~Fruit();
 };
